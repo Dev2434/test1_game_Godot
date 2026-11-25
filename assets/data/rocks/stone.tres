@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="RockData" format=3 uid="uid://u5uf4olq02j1"]
+
+[ext_resource type="Script" uid="uid://dlva334c5dh4u" path="res://scripts/rock_data.gd" id="1_p6tvq"]
+[ext_resource type="Texture2D" uid="uid://d12j0eqln1sx3" path="res://assets/images/ores/stone.png" id="2_k36pp"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k36pp"]
+atlas = ExtResource("2_k36pp")
+region = Rect2(16, 48, 16, 16)
+
+[resource]
+script = ExtResource("1_p6tvq")
+texture = SubResource("AtlasTexture_k36pp")
+rarity = 50
+min_depth = 1
+metadata/_custom_type_script = "uid://dlva334c5dh4u"
